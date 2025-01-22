@@ -1,5 +1,5 @@
 # 2048-Game-in-Python
-We develop look python code and logic to design a 2048 game you have played very often in your smartphone. If you are not familiar with the game, it is highly recommended to first play the game so that you can understand the basic functioning of it.
+We develop look python code and logic to design a 2048 game you have played very often in your smartphone.It is highly recommended to first play the game so that you can understand the basic functioning of it.
 
 How to play 2048 :
 1. There is a 4*4 grid which can be filled with any number. Initially two random cells are filled with 2 in it. Rest cells are empty.
@@ -8,11 +8,10 @@ How to play 2048 :
 4. Following the above process we have to double the elements by adding up and make 2048 in any of the cell. If we are able to do that we wins.
 5.  But if during the game there is no empty cell left to be filled with a new 2, then the game goes over.
    
-In above process you can see the snapshots from graphical user interface of 2048 game. But all the logic lies in the main code. So to solely understand the logic behind it we can assume the above grid to be a 4*4 matrix ( a list with four rows and four columns). You can see below the way to take input and output without GUI for the above game.
+See the snapshots from graphical user interface of 2048 game. But all the logic lies in the main code. To solely understand the logic behind it we can assume the above grid to be a 4*4 matrix ( a list with four rows and four columns). See below the way to take input and output without GUI for the above game.
 
 Programming Approach : 
--We will design each logic function such as we are performing a left swipe then we will use it for right swipe by reversing matrix and performing left swipe.
+-Design each logic function such as we are performing a left swipe then we will use it for right swipe by reversing matrix and performing left swipe.
 -Moving up can be done by taking transpose then moving left.
 -Moving down can be done by taking transpose the moving right.
--All the logic in the program are explained in detail in the comments. Highly recommended to go through all the comments.
--We have two python files below, one is 2048.py which contains main driver code and the other is logic.py which contains all functions used. logic.py should be imported in 2048.py to use these functions. just place both the files in the same folder then run 2048.py will work perfectly.
+-There are two python files below, one is 2048.py which contains main driver code and the other is logic.py which contains all functions used. logic.py should be imported in 2048.py to use these functions. just place both the files in the same folder then run 2048.py will work perfectly.
