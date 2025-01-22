@@ -1,0 +1,24 @@
+Code Explanation:
+
+1. The code starts by importing the logic module.
+2. This module contains all the functions that we will use in our program.
+3. Next, we have a function to initialize the matrix.
+4. This is done by calling the start_game() function.
+5. The while loop runs until the user presses any of the keyboard keys (W, S, A, D).
+6. For each key press, we call one of the functions in logic.
+7. These are move_up(), move_down(), and move_left().
+8. We also need to call get_current_state() to get information about the current state of our matrix.
+9. Each function in logic takes two arguments: mat and flag.
+10. mat is the matrix object and flag is either ‘W’ for moving up or ‘S’ for moving down.
+11. If you recall from earlier in this chapter, these are references to variables that store data about our game board.
+12. After calling each function, we print out its results and then check to see if game is over yet using status variable.
+13. If it isn’t over yet, we add a new row to our matrix using add_new_2().
+14. Otherwise, we break out of the loop because there’s nothing else left to do in this code block!
+15. Finally, at the code starts by importing the logic.py file.
+16. This file contains all the functions used in this project.
+17. Next, we have written the driver code.
+18. In this code, we are checking for the input of a key and depending on that input, we are calling one of the function in logic.py file.
+19. We will be discussing each of these functions in detail later on in this article.
+20. The while loop is used to keep track of user input and execute the corresponding code inside it.
+21. The code inside this loop will be executed until user presses any other key or the game is over.
+22. Inside the if statement, we are checking for different keys and depending on that input, we are calling one of the functions from logic.py
